@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Rocker&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Rocker&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&family=Lobster&family=New+Rocker&family=Poppins:wght@200&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    cursor: url("honeybun.png"), auto;
+}
+
+body {
+    cursor: url("honeybun.png"), auto;
+    background-color: rgba(255, 0, 109, 0.7);
+}
+
+header {
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    width: fit-content;
+    top: 3%;
+    left: 20%;
+    right: 20%;
+    margin: auto;
+}
+
+nav {
+    /* display: sticky; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    margin: auto;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    /* display: inline; */
+}
+
+nav:hover {
+    box-shadow: 2px 2px rgba(236, 236, 236, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 2% 9% auto;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 2px 2px rgba(236, 236, 236, 0.5);
+    /* border: 2px white; */
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 75px;
+    text-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background-color: rgba(255, 253, 242, 0.8);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    z-index: 1;
+}
+
+#confetti {
+    width: 60%;
+    margin: 20px 20%;
+    z-index: 2;
+}
+
+#confetti:hover {
+    transform: rotate(180deg);
+    width: 70%;
+    margin: 20px 15%;
+}
+
+.party-links {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    border: 3px solid black;
+    background-color: rgba(239, 207, 227, 1);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 33px;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.party-links:hover {
+    box-shadow: 8px 8px 8px rgba(236, 236, 236, 0.5);
+    text-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
+
+}
