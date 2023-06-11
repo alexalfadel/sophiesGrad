@@ -81,7 +81,7 @@ a:hover {
 
 h1 {
     margin: auto;
-    font-size: 75px;
+    font-size: 68px;
     text-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
 }
 
@@ -145,5 +145,62 @@ h3 {
 .party-links:hover {
     box-shadow: 8px 8px 8px rgba(236, 236, 236, 0.5);
     text-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
+
+}
+
+@media screen and (max-width: 414px) {
+
+    * {
+        /* display: flex; */
+        /* justify-content: column; */
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    nav {
+        position: absolute;
+        width: 80%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        top: 12vh;
+        left: 10%;
+        right: 10%;
+    }
+
+    li {
+        padding-right: 20px;
+        margin: 0;
+        /* padding-left: 5px; */
+        font-size: 15px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .card {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 23vh;
+        left: 10%;
+        right: 10%;
+
+    }
+
+    #confetti {
+        top: 26vh;
+        width: 40%;
+        height: auto;
+    }
+
+    .party-links {
+        font-size: 15px;
+    }
 
 }

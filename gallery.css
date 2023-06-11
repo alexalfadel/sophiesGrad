@@ -76,7 +76,7 @@ a:hover {
 
 h1 {
     margin: auto;
-    font-size: 75px;
+    font-size: 68px;
     text-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
 }
 
@@ -111,4 +111,54 @@ li > img {
 
 .last-child {
     flex-grow: 10;
+}
+
+@media screen and (max-width:414px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    nav {
+        position: absolute;
+        width: 80%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        top: 12vh;
+        left: 10%;
+        right: 10%;
+    }
+
+    li {
+        padding-right: 20px;
+        margin: 0;
+        /* padding-left: 5px; */
+        font-size: 15px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .gallery > ul {
+        position: relative;
+        top: 80px;
+        overflow: scroll;
+    }
+
+    .pic {
+        flex-shrink: 0;
+        flex-grow: 0;
+        overflow: hidden;
+        height: 40vh;
+        border: none;
+    }
+
+    li > img {
+        border: none;
+    }
+
 }
