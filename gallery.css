@@ -149,7 +149,7 @@ li > img {
 
     .gallery > ul {
         position: relative;
-        top: 80px;
+        top: 15vh;
         overflow: scroll;
     }
 
