@@ -120,7 +120,7 @@ p {
     flex-basis: 27%;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
     * {
         cursor: auto;
         margin: 3px;
